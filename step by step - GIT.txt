@@ -1,0 +1,38 @@
+Git Bash -(Iniciando o versionamento)
+
+1 - botão direito na pasta do projeto e clicar em GitBash
+
+2 - git init -> inicia o versionamento
+
+3 - git config --global user.name "123" -> configarando usuario
+
+4 - git config --global user.email "123@gmail.com"-> configarando email
+
+5 - git status -> verifica o status do projeto
+
+Caso existam arquivos em vermelho, os mesmos estão em um  estado não rastreaveis pelo git, para transformalos em rastreados,
+deve-se transferir os mesmos para o estado stade, assim os mesmos estão prontos para serem commitados/versionados.
+
+6 - git add . -> transfere os arquivos em vermelho(untracked) para o estado versionavel.
+
+7 - git status -> verifica o status do projeto
+
+Caso existam arquivos em verde, os mesmos estão em um  estado rastreaveis, prontos para serem commitados/versionados.
+
+8 - git commit -m "Projeto Criando" -> Entre aspas, o cometario das alterações feitas  no projeto
+
+9 - git log -> Mostra o Historico dos commits
+
+Enviando o projeto para o GitHub
+
+10 - Start create, nomear e criar o repositorio publico ou privado
+
+11 - Com o repositorio criado 
+	- > git remote add origin https://github.com/Devecch1/cursomc.git
+     (Para vincular o projeto com o repositorio)
+
+12 - git push -u origin master -> Enviar o projeto ao repositorio (user e pass, serão necessarios)
+
+13 - Clicar no nome do repositorio no github e verificar se o projeto foi enviado.
+
+Teste

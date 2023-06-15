@@ -1,0 +1,73 @@
+GIT - VERSIONAMENTO
+
+Criando primeiro o repositório:
+-> cd 'a pasta que sera versionada'
+
+Após acessar a pasta, executar o comando:
+-> git init
+
+Validar o repositório:
+-> ls -al
+
+Configurar meu nome e e-mail:
+-> git config --global user.name "username"
+-> git config --global user.email "email"
+
+Para verificar qual nome e e-mail que se encontra:
+-> git config user.name
+-> git config user.email
+
+Verificar estado dos arquivos/diretório:
+-> git status
+
+Recebe uma lista de arquivos como parâmetros:
+-> git add . (adicionar todos os arquivos)
+ou
+-> git add "nome do arquivo"
+
+Registrar commit com todos os arquivbos adicionados "git add":
+-> git commit -m "Comentário"
+
+Possibilita revistar a linha do tempo:
+-> git log
+
+Observar o que foi feito nos pontos:
+-> git show (id que apareceu no git log)
+(pra sair do git show, basta apertar o 'Q')
+
+Criar linhas do tempo alternativa, permitindo fazer alterações sem afetar a linha principal(master):
+-> git branch 'nome da branch' (não precisa das '')
+
+Verificar que branch está:
+-> git branch
+
+Para acessar a branch que se deseja trabalhar:
+-> git checkout 'nome da branch' (não precisa das '')
+
+Acessar o meu repositório para realizar a clonagem:
+-> git remote add origin "o link do repositório" (não precisa das "")
+
+Para subir esses arquivos:
+-> git push -u origin "nome da branch" (não precisa das "")
+
+Clonar o repositório trazendo o que tem lá para minha pasta na máquina:
+-> git clone "o link do repositório" (não precisa das "")
+
+
+
+-- COMO FUNCIONA NO CASO DE MASTER PRA MAIN
+
+-- git init
+-- git remote add origin "link do repositório"
+-- git pull origin main
+-- git checkout -b main
+-- git status
+-- git add .
+-- git commit -m "o que eu quero comentar"
+-- git push origin main
+--> dessa forma ele vai commitar diretamente para main, assim não indo para a master
+
+
+
+
+
