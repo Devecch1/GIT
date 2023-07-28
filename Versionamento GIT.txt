@@ -61,6 +61,7 @@ Clonar o repositório trazendo o que tem lá para minha pasta na máquina:
 -- git remote add origin "link do repositório"
 -- git pull origin main
 -- git checkout -b main
+-- git branch -M main
 -- git status
 -- git add .
 -- git commit -m "o que eu quero comentar"
